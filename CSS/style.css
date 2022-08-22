@@ -1,3 +1,57 @@
 * {
-    font-family: 'Comfortaa', cursive;;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0%;
+   background-color: #24252a;
+}
+
+li, a, button {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+#logo {
+    width: 7%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.navUL {
+    list-style: none;
+}
+
+.navUL li {
+    display: inline-block;
+    padding: 0px 70px;
+}
+
+#search-bar {
+    width: 125px;
+    border-radius: 4px;
+    color: #ecf0f1;
+}
+#search-button {
+    border-radius: 4px;
+    color: rgb(48, 47, 47);
+    font-size: 15px;
+    background-color: rgb(190, 190, 190);
+}
+#search-button:hover{
+   transform: scale(1.06);
+   border-radius: 4px;
+}
+
+#text-input{
+    margin: 10px;
 }
