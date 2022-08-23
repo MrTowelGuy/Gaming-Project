@@ -1,4 +1,5 @@
 header {
+   min-width: 900px;
    box-sizing: border-box;
    flex-direction: row;
    height: 11ex;
