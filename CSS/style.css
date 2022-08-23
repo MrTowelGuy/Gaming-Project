@@ -1,13 +1,33 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
 header {
    min-width: 900px;
    box-sizing: border-box;
    flex-direction: row;
-   height: 11ex;
+   height: 8ex;
    margin: 0px;
    padding: 5px;
    background-color: #24252a;
    border-radius: 6px;
 }
+
+body {
+    background-color: #bdbdbdc9;
+}
+
+/* footer {
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #24252a;
+    color: #ecf0f1;
+    text-size-adjust: 8px;
+    border-radius: 5px;
+    margin-top: auto;
+} */
 
 li, a, button {
     font-family: 'Comfortaa', cursive;
