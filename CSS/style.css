@@ -17,17 +17,15 @@ body {
     background-color: #bdbdbdc9;
 }
 
-/* footer {
-    box-sizing: border-box;
-    flex-direction: column;
-    height: 100%;
+footer {
+
+    height: 10%;
     min-height: 100vh;
     background-color: #24252a;
     color: #ecf0f1;
     text-size-adjust: 8px;
     border-radius: 5px;
-    margin-top: auto;
-} */
+}
 
 li, a, button {
     font-family: 'Comfortaa', cursive;
@@ -44,7 +42,7 @@ header {
     padding: 30px 10%;
 }
 #logo {
-    width: 7%;
+    width: 5%;
     height: auto;
     left: 0px;
     right: 0px;
@@ -76,7 +74,7 @@ header {
 }
 
 
-#search-bar {
+#searchBar {
     width: 125px;
     border: none;
     border-radius: 4px;
@@ -84,12 +82,12 @@ header {
     background-color:rgb(190, 190, 190);
 }
 
-#search-bar:focus{
+#searchBar:focus{
     outline: #fffeb7;
     border: #ecf0f1;
 }
 
-#search-button {
+#searchButton {
     border: none;
     text-align: center;
     border-radius: 4px;
@@ -99,11 +97,11 @@ header {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-#search-button:hover{
+#searchButton:hover{
    transform: scale(1.06);
    border-radius: 4px;
 }
 
-#text-input{
+#textInput{
     margin: 10px;
 }
