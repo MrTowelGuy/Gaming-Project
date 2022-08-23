@@ -1,8 +1,11 @@
-* {
+header {
    box-sizing: border-box;
-   margin: 0;
-   padding: 0%;
+   flex-direction: row;
+   height: 11ex;
+   margin: 0px;
+   padding: 5px;
    background-color: #24252a;
+   border-radius: 6px;
 }
 
 li, a, button {
@@ -27,6 +30,11 @@ header {
     cursor: pointer;
 }
 
+#logo:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+
 .navUL {
     list-style: none;
 }
@@ -36,16 +44,39 @@ header {
     padding: 0px 70px;
 }
 
+.navUL li a {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navUL li a:hover {
+    color:rgb(245, 160, 160);
+    transform: scale(1.1);
+}
+
+
 #search-bar {
     width: 125px;
+    border: none;
     border-radius: 4px;
-    color: #ecf0f1;
+    color: #6d6d6d;
+    background-color:rgb(190, 190, 190);
 }
+
+#search-bar:focus{
+    outline: #fffeb7;
+    border: #ecf0f1;
+}
+
 #search-button {
+    border: none;
+    text-align: center;
     border-radius: 4px;
     color: rgb(48, 47, 47);
-    font-size: 15px;
+    font-size: 14.5px;
     background-color: rgb(190, 190, 190);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 #search-button:hover{
    transform: scale(1.06);
