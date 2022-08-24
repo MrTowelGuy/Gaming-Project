@@ -13,6 +13,10 @@ header {
    border-radius: 6px;
 }
 
+main{
+   
+}
+
 body {
     background-color: #bdbdbdc9;
 }
@@ -20,6 +24,26 @@ h3{
     color: #ecf0f1;
     font-size: medium;
     max-width: 74px;
+    max-height: 50px;
+    border-radius: 6px;
+    background-color: #24252a;
+    box-sizing: border-box;
+}
+
+#gamenumber{
+    color: #ecf0f1;
+    font-size: medium;
+    max-width: 366px;
+    max-height: 50px;
+    border-radius: 6px;
+    background-color: #24252a;
+    box-sizing: border-box;
+}
+
+#poster{
+    color: #ecf0f1;
+    font-size: medium;
+    max-width: 230px;
     max-height: 50px;
     border-radius: 6px;
     background-color: #24252a;
