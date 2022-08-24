@@ -3,7 +3,7 @@
 }
 
 header {
-   min-width: 900px;
+   min-width: 500px;
    box-sizing: border-box;
    flex-direction: row;
    height: 8ex;
@@ -16,15 +16,26 @@ header {
 body {
     background-color: #bdbdbdc9;
 }
+h3{
+    color: #ecf0f1;
+    font-size: medium;
+    max-width: 74px;
+    max-height: 50px;
+    border-radius: 6px;
+    background-color: #24252a;
+    box-sizing: border-box;
+}
 
 footer {
-
-    height: 10%;
-    min-height: 100vh;
+    text-align: center;
+    font-size: smaller;
+    height: 1.5rem;
     background-color: #24252a;
-    color: #ecf0f1;
-    text-size-adjust: 8px;
-    border-radius: 5px;
+    color: #c4c5c6;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 500px;
 }
 
 li, a, button {
@@ -93,7 +104,7 @@ header {
     border-radius: 4px;
     color: rgb(48, 47, 47);
     font-size: 14.5px;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(155, 152, 152);
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
