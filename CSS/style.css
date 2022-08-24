@@ -38,7 +38,7 @@ footer {
     min-width: 500px;
 }
 
-li, a, button {
+li, .navbarlinks, button {
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
     font-size: 16px;
@@ -115,4 +115,17 @@ header {
 
 #textInput{
     margin: 10px;
+}
+
+#RAWG {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+#RAWG:hover{
+    transition: all 0.3s ease 0s;
+    color:rgb(245, 160, 160);
 }
