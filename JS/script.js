@@ -19,10 +19,12 @@ function handleData(event){
             return platform.name.toLowerCase().includes(userInput.toLowerCase().trim()) 
         })
         console.log(filteredResults)
+        const consoleSelect = filteredResults[filteredResults.length-1]
         console.log(filteredResults[filteredResults.length-1].games_count)
         $gamesCount.text(filteredResults[filteredResults.length-1].games_count)
         $name.text(filteredResults[filteredResults.length-1].name)
-        $poster.text(filteredResults[filteredResults.length-1].image_background)
+        //$poster.append( `<img src="${ filteredResults.image_background }" alt="Popular ${data.name} Game"/>` )
+        //$poster.append(filteredResults[filteredResults.length-1].background_image)
         return filteredResults
         render()
     })
