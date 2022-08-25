@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////
 //J A V A S C R I P T  F O R  M Y  F I R S T  C O D I N G  P R O J E C T//
 //////////////////////////////////////////////////////////////////////////
-
+// PROPS TO THE TAs IN OFFICE HOURS AND RYAN FOR HELPING MY SOMETIMES CLUELESS SELF!!!!
 //1. the code below is setting a variable which is sayin "URL is equal to..." and the url is my api url with my api key.
 const URL = "https://api.rawg.io/api/platforms?key=e0bf16b64b704c9ca38eaac77d4a5087" 
 //2. below im setting a jquery variable called $name and saying it is equal to the id of title in my html. so when i type $name it references my html.
@@ -42,3 +42,4 @@ function handleData(event){
         return filteredResults //this returns the filtered results
     })
 }
+//REACHED MVP 
