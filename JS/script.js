@@ -23,8 +23,8 @@ function handleData(event){
         console.log(consoleSelect.games_count)
         $gamesCount.text(consoleSelect.games_count)
         $name.text(consoleSelect.name)
-        //$poster.append( `<img src="${ filteredResults.image_background }" alt="Popular ${data.name} Game"/>` )
-        //$poster.append(filteredResults[filteredResults.length-1].background_image)
+        document.getElementById("popularGamePoster").src = consoleSelect.image_background
+        //$poster.append( `<img src="${ consoleSelect.image_background }" alt="Popular ${consoleSelect.name} Game"/>` )
         return filteredResults
         render()
     })
