@@ -1,0 +1,167 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+   min-width: 500px;
+   box-sizing: border-box;
+   flex-direction: row;
+   height: 8ex;
+   margin: 0px;
+   padding: 5px;
+   background-color: #24252a;
+   border-radius: 6px;
+}
+
+body {
+    background-color: #bdbdbdc9;
+}
+h3{
+    color: #ecf0f1;
+    font-size: medium;
+    max-width: 74px;
+    max-height: 50px;
+    border-radius: 6px;
+    background-color: #24252a;
+    box-sizing: border-box;
+}
+
+#gamenumber{
+    color: #ecf0f1;
+    font-size: medium;
+    max-width: 366px;
+    max-height: 50px;
+    border-radius: 6px;
+    background-color: #24252a;
+    box-sizing: border-box;
+}
+
+#poster{
+    color: #ecf0f1;
+    font-size: medium;
+    max-width: 230px;
+    max-height: 50px;
+    border-radius: 6px;
+    background-color: #24252a;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    height: 1.5rem;
+    background-color: #24252a;
+    color: #c4c5c6;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 500px;
+}
+
+li, .navbarlinks, button {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+#logo {
+    width: 5%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+#logo:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+
+#searchEngine{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#searchEngine:hover{
+    color:rgb(245, 160, 160);
+    transform: scale(1.1);
+}
+
+.navUL {
+    list-style: none;
+}
+
+.navUL li {
+    display: inline-block;
+    padding: 0px 70px;
+}
+
+.navUL li a {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navUL li a:hover {
+    color:rgb(245, 160, 160);
+    transform: scale(1.1);
+}
+
+
+#searchBar {
+    width: 125px;
+    border: none;
+    border-radius: 4px;
+    color: #6d6d6d;
+    background-color:rgb(190, 190, 190);
+}
+
+#searchBar:focus{
+    outline: #fffeb7;
+    border: #ecf0f1;
+}
+
+#searchButton {
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    color: rgb(48, 47, 47);
+    font-size: 14.5px;
+    background-color: rgb(155, 152, 152);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+#searchButton:hover{
+   transform: scale(1.06);
+   border-radius: 4px;
+}
+
+#textInput{
+    margin: 10px;
+}
+
+#RAWG {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+#RAWG:hover{
+    transition: all 0.3s ease 0s;
+    color:rgb(245, 160, 160);
+}
+
+#popularGamePoster{
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 6px;
+}
