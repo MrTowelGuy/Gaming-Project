@@ -100,6 +100,16 @@ li, .navbarlinks, button {
     transform: scale(1.1);
 }
 
+#home-text{
+    font-family: 'Silkscreen', cursive;
+    margin-left: 100px;
+}
+
+#portable-text{
+    font-family: 'Silkscreen', cursive;
+    margin-left: 50px;
+}
+
 #searchEngine{
     cursor: pointer;
     transition: all 0.3s ease 0s;
