@@ -78,6 +78,17 @@ h2{
     
 }
 
+#home-text{
+    font-family: 'Silkscreen', cursive;
+    margin-left: 37px;
+}
+
+#portable-text{
+    font-family: 'Silkscreen', cursive;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
 li, .navbarlinks, button {
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
