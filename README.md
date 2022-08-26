@@ -10,8 +10,8 @@
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [License](#license)
-- [Author Info](#author-info)
+- [API Reference](#api-reference)
+
 
 ---
 
@@ -37,7 +37,7 @@ Search engine also provides more console choices and the amount of games release
 search your favorite console! Navigate through the menus on the page!
 
 
-#### API Reference
+## API Reference
 
 
 click here to see the [RAWG](https://rawg.io/) api website!
