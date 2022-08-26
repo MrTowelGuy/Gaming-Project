@@ -1,6 +1,6 @@
 # Read Me For Gaming Project
 
-![A 90s KIDs GAMER NOSTALGIA](https://i.imgur.com/ix4SXBk.png)
+![PICK YOUR DIGITAL POISON](https://imgur.com/gallery/hX5GbDg)
 
 ## ReadMe template made by James Q Quick.
 
