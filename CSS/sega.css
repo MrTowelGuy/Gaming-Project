@@ -71,6 +71,15 @@ h2{
     transition: all 0.3s ease 0s;
 }
 
+.sega-cons{
+    font-family: 'Silkscreen', cursive;
+    margin-left: 120px;
+}
+
+#portable-sega{
+
+}
+
 .image-buttons {
     display: flex;
     justify-content: center;
