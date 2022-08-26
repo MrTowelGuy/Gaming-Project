@@ -49,13 +49,14 @@ h2{
     background-color: #ffffff;
     border-radius: 6px;
     margin: 3vh auto;
-    width: 45vh;
+    width: 84vh;
     padding: 4px 0 4px 0;
 }
 
 
 #introP{
     font-family: 'Silkscreen', cursive;
+    font-size: 90px;
     text-align: center;
     font-size: larger;
 
@@ -116,7 +117,8 @@ footer {
     height: 1.5rem;
     background-color: #24252a;
     color: #c4c5c6;
-    position: relative;
+    position: fixed;
+    bottom: 0;
     padding: 4px;
     width: 100%;
     min-width: 500px;

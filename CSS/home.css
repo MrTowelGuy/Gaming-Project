@@ -116,7 +116,8 @@ footer {
     height: 1.5rem;
     background-color: #24252a;
     color: #c4c5c6;
-    position: relative;
+    position: fixed;
+    bottom: 0;
     padding: 4px;
     width: 100%;
     min-width: 500px;
