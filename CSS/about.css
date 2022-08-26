@@ -111,6 +111,15 @@ li, .navbarlinks, button {
     transform: scale(1.1);
 }
 
+.about-page{
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: small;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 footer {
     text-align: center;
     font-size: smaller;
