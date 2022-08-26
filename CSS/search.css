@@ -52,8 +52,8 @@ footer {
     height: 1.5rem;
     background-color: #24252a;
     color: #c4c5c6;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    padding: 4px;
     width: 100%;
     min-width: 500px;
 }

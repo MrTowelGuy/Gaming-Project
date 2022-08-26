@@ -1,77 +1,35 @@
 *{
     font-family: 'Comfortaa', cursive;
 }
-
-header {
-   min-width: 500px;
-   box-sizing: border-box;
-   flex-direction: row;
-   height: 8ex;
-   margin: 0px;
-   padding: 5px;
-   background-color: #24252a;
-   border-radius: 6px;
-}
-
 body {
     background-color: #bdbdbdc9;
-}
-h3{
-    color: #ecf0f1;
-    font-size: medium;
-    max-width: 74px;
-    max-height: 50px;
-    border-radius: 6px;
-    background-color: #24252a;
-    box-sizing: border-box;
-}
-
-#gamenumber{
-    color: #ecf0f1;
-    font-size: medium;
-    max-width: 366px;
-    max-height: 50px;
-    border-radius: 6px;
-    background-color: #24252a;
-    box-sizing: border-box;
-}
-
-#poster{
-    color: #ecf0f1;
-    font-size: medium;
-    max-width: 230px;
-    max-height: 50px;
-    border-radius: 6px;
-    background-color: #24252a;
-    box-sizing: border-box;
-}
-
-footer {
-    text-align: center;
-    font-size: smaller;
-    height: 1.5rem;
-    background-color: #24252a;
-    color: #c4c5c6;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    min-width: 500px;
-}
-
-li, .navbarlinks, button {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ecf0f1;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
 
 header {
+    position: center;
+    min-width: 500px;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: 8ex;
+    width: 98vw;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #24252a;
+    border-radius: 6px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
     align-items: center;
     padding: 30px 10%;
 }
+
+.navUL {
+    list-style: none;
+}
+
 #logo {
     width: 5%;
     height: auto;
@@ -85,20 +43,48 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-#searchEngine{
-    cursor: pointer;
+h2{
+    font-family: 'Common Pixel', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 3vh auto;
+    width: 45vh;
+    padding: 4px 0 4px 0;
+}
+
+
+#introP{
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.company-logos{
+    height: 18vh;
+    margin: 4vw;
+}
+
+.company-logos:hover{
+    transform: scale(1.1);
     transition: all 0.3s ease 0s;
 }
 
-#searchEngine:hover{
-    color:rgb(245, 160, 160);
-    transform: scale(1.1);
+.image-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
-.navUL {
-    list-style: none;
+li, .navbarlinks, button {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
 }
-
 .navUL li {
     display: inline-block;
     padding: 0px 70px;
@@ -114,37 +100,26 @@ header {
     transform: scale(1.1);
 }
 
-
-#searchBar {
-    width: 125px;
-    border: none;
-    border-radius: 4px;
-    color: #6d6d6d;
-    background-color:rgb(190, 190, 190);
-}
-
-#searchBar:focus{
-    outline: #fffeb7;
-    border: #ecf0f1;
-}
-
-#searchButton {
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    color: rgb(48, 47, 47);
-    font-size: 14.5px;
-    background-color: rgb(155, 152, 152);
+#searchEngine{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-#searchButton:hover{
-   transform: scale(1.06);
-   border-radius: 4px;
+
+#searchEngine:hover{
+    color:rgb(245, 160, 160);
+    transform: scale(1.1);
 }
 
-#textInput{
-    margin: 10px;
+footer {
+    text-align: center;
+    font-size: smaller;
+    height: 1.5rem;
+    background-color: #24252a;
+    color: #c4c5c6;
+    position: relative;
+    padding: 4px;
+    width: 100%;
+    min-width: 500px;
 }
 
 #RAWG {
@@ -160,8 +135,12 @@ header {
     color:rgb(245, 160, 160);
 }
 
-#popularGamePoster{
-    max-width: 400px;
-    max-height: 400px;
-    border-radius: 6px;
+@media only screen and (max-width: 580px){
+    .image-buttons{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
