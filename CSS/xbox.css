@@ -78,6 +78,29 @@ h2{
     
 }
 
+#xbox-og{
+    height: 25px;
+    margin-top:135px ;
+    margin-left: 90px;
+    margin-right: 60px;
+}
+
+#x360{
+    height: 180px;
+    margin-top:60px ;
+}
+#one{
+    height: 195px;
+    margin-top: 55px;
+    margin-right: 150px;
+}
+
+#series-xs{
+    height: 50px;
+    margin-top: 132px;
+    margin-right: 190px;
+}
+
 li, .navbarlinks, button {
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
